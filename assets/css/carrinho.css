@@ -1,0 +1,146 @@
+.divgeral {
+    text-align: center;
+}
+.titulo {
+    display: flexbox;
+    /* padding-left: 35%; */
+    /* padding-right: 35%; */
+    /* padding-left: 30px; */
+    /* width: 200px; */
+    background-color: rgb(39, 39, 98);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 10px;
+ }
+
+ .produto {
+    align: center;
+    margin-top: 0px;
+    width: 25%;
+ }
+
+ .imgproduto {
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    object-fit: contain;
+    border-style: dotted;
+    /* background-color:lightslategray; */
+ }
+
+.topcarrinho {
+    border-style: dotted;
+    /* width: 500px; */
+    text-align: center;
+    /* vertical-align: middle; */
+    margin: 10;
+    padding: 10;
+}
+  
+.txtproduto {
+    border-style: groove;
+    border-color: rgb(39, 39, 98);
+    /* background-color: rgb(39, 39, 98); */
+    margin-left: 40;
+    margin-right: 40;
+    margin-top: 10;
+    padding: 10;
+    /* color: whitesmoke; */
+}
+
+.corpo{
+    text-align: center;
+    min-height: 80vh;
+  }  
+
+.menufonte {
+    color: black;
+    background-color: lightblue;
+}
+
+.menuimg {
+    height: 35px;
+    width: 35px;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+#divproduto {
+    text-align: left;
+    color: green;
+    margin-left: 10px;
+    padding-left: 50px;
+}
+
+#txtprincipal {
+    color: yellow;
+    background-color: red;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 5% 5% 90%;
+    /* background-color: lightsalmon; */
+    /* color: #444; */
+}
+
+.box {
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 150%;
+    background-color: blue;
+}
+
+.a {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.b {
+    grid-column: 2;
+    grid-row: 1;
+    width: 150px;
+    padding-top: 5px;
+    margin-left: -35px;
+    /* text-align: center; */
+    /* padding-top: 25%; */
+}
+
+.c {
+    grid-column: 3;
+    grid-row: 1;
+    padding-top: 5px;
+}
+
+.d {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.e {
+    grid-column: 11;
+    grid-row: 1;
+}
+
+.f {
+    grid-column: 12 / 12;
+    grid-row: 1;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    /* margin: 0px; */
+    text-align: center;
+}
+  
